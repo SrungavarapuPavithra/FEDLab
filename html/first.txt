@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 This is a first file this is for example.
 
+||||||| 714108e
+This is a first file this is for example
+
+=======
+This is a first file this is for example
+This is another example
+>>>>>>> 5aec159721baed16695b759525d71b0bbbd1e247
