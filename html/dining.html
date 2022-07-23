@@ -5,18 +5,37 @@
 	<body align = "center">
 		<form>
 			<h1> Dine Booking</h1>
-			Visitor name : <input type = "text" maxlength="20" autofocus /><br>
-			Number of members : <input type = "text" format = [0-9] maxlength="2" /><br>
-			Contact number : <input type = "text" maxlength = "10" pattern = [0-9]/><br>
-			Email : <input type = "email" /><br>
-			Type of food : <br><input type  = "checkbox" name = "south indian"/><label>South Indian</label><br>
-			<input type = "checkbox" name = "north indian" required /><label> North Indian</label><br>
-			<input type = "checkbox" name = "chinese" /><label>  Chinese</label><br>
-			<input type = "checkbox" name = " Western" /><label> Western </label><br>
-			Room Status : <br>
-			<input type = "radio" name = "ac" required checked = "true"/><label>AC</label><br>
-			<input type = "radio" name = "ac"/><label>Non-AC</label><br>
-			Venue Preference:<select default = "">
+			<table align = "left" autofit>
+			<tr>
+				<td>Visitor name : </td>
+					<td><input type = "text" maxlength="20" autofocus /></td>
+				</tr>
+			<tr>
+				<td>Number of members :</td>
+				<td> <input type = "text" format = [0-9] maxlength="2" /></td>
+			</tr>
+			<tr>
+				<td>Contact number : </td>
+				<td><input type = "text" maxlength = "10" pattern = [0-9]/></td>
+			</tr>
+			<tr>
+				<td>Email :</td>
+				<td> <input type = "email" /></td>
+			</tr>
+			<tr>
+				<td>Type of food :</td>
+				<td><input type  = "checkbox" name = "south indian"/><label>South Indian</label></td>
+				<td><input type = "checkbox" name = "north indian" required /><label> North Indian</label></td>
+				<td><input type = "checkbox" name = "chinese" /><label>  Chinese</label></td>
+				<td><input type = "checkbox" name = " Western" /><label> Western </label></td>
+			</tr>
+			<tr>
+				<td>Room Status :</td>
+				<td><input type = "radio" name = "ac" required checked = "true"/><label>AC</label>
+				<input type = "radio" name = "ac"/><label>Non-AC</label></td>
+			</tr>
+			<tr>
+				<td>Venue Preference:</td><td><select default = "">
 				<option>Arena</option>
 				<option selected>---Select--</option>
 				<option>Fiesta</option>
@@ -25,9 +44,12 @@
 				<option>Magna</option>
 				<option>Oasis</option>
 				<option disabled>Amoeba</option>
-			</select><br><br>
-			<input type = "submit" value = "Book"/>
-			<input type = "reset" value = "Reset"/>
+			</select></td>
+			</tr><br><br>
+			<tr>
+			<td><input type = "submit" value = "Book"/></td>
+			<td><input type = "reset" value = "Reset"/></td>
+			</tr>
 		</form>
 	</body>
 	</html>
