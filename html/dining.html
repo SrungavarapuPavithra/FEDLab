@@ -5,7 +5,7 @@
 	<body align = "center">
 		<form>
 			<h1> Dine Booking</h1>
-			<table align = "left" autofit>
+			<table align = "center" autofit>
 			<tr>
 				<td>Visitor name : </td>
 					<td><input type = "text" maxlength="20" autofocus /></td>
@@ -24,18 +24,18 @@
 			</tr>
 			<tr>
 				<td>Type of food :</td>
-				<td><input type  = "checkbox" name = "south indian"/><label>South Indian</label></td>
-				<td><input type = "checkbox" name = "north indian" required /><label> North Indian</label></td>
-				<td><input type = "checkbox" name = "chinese" /><label>  Chinese</label></td>
-				<td><input type = "checkbox" name = " Western" /><label> Western </label></td>
+				<td align="left"><input type  = "checkbox" name = "south indian"/>South India</td>
+				<td align = "left"><input type = "checkbox" name = "north indian" required /><label> North Indian</label></td>
+				<td align = "left"><input type = "checkbox" name = "chinese" /><label>  Chinese</label></td>
+				<td align = "left"><input type = "checkbox" name = " Western" /><label> Western </label></td>
 			</tr>
 			<tr>
 				<td>Room Status :</td>
-				<td><input type = "radio" name = "ac" required checked = "true"/><label>AC</label>
+				<td align = "left"><input type = "radio" name = "ac" required checked = "true"/><label>AC</label>
 				<input type = "radio" name = "ac"/><label>Non-AC</label></td>
 			</tr>
 			<tr>
-				<td>Venue Preference:</td><td><select default = "">
+				<td>Venue Preference:</td><td><select align = "left" default = "">
 				<option>Arena</option>
 				<option selected>---Select--</option>
 				<option>Fiesta</option>
@@ -50,6 +50,7 @@
 			<td><input type = "submit" value = "Book"/></td>
 			<td><input type = "reset" value = "Reset"/></td>
 			</tr>
+		</table>
 		</form>
 	</body>
 	</html>
